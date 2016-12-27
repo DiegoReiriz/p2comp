@@ -1,6 +1,6 @@
 	.file	"main3.cpp"
 	.section	.rodata
-.LC1:
+.LC2:
 	.string	"\nresultado: %f %f"
 	.text
 	.globl	main
@@ -21,27 +21,45 @@ main:
 	movl	$0, %esi
 	movq	%rax, %rdi
 	call	gettimeofday
-	movl	$0, -68(%rbp)
-.L5:
-	cmpl	$99, -68(%rbp)
+	movl	$0, -64(%rbp)
+.L8:
+	cmpl	$99, -64(%rbp)
 	jg	.L2
-	movl	$0, -72(%rbp)
-.L4:
-	cmpl	$99999999, -72(%rbp)
+	movl	$0, -68(%rbp)
+.L7:
+	cmpl	$99999999, -68(%rbp)
 	jg	.L3
-	movl	-72(%rbp), %eax
+	pxor	%xmm0, %xmm0
+	cvtsi2ss	-64(%rbp), %xmm0
+	mulss	-60(%rbp), %xmm0
+	pxor	%xmm1, %xmm1
+	ucomiss	%xmm1, %xmm0
+	jp	.L4
+	pxor	%xmm1, %xmm1
+	ucomiss	%xmm1, %xmm0
+	jne	.L4
+	movl	-68(%rbp), %eax
 	cltq
-	movss	_ZZ4mainE1x(,%rax,4), %xmm0
-	mulss	-64(%rbp), %xmm0
-	addss	-60(%rbp), %xmm0
-	movl	-72(%rbp), %eax
+	pxor	%xmm0, %xmm0
+	movss	%xmm0, _ZZ4mainE1x(,%rax,4)
+	jmp	.L6
+.L4:
+	movl	-68(%rbp), %eax
+	cltq
+	movss	_ZZ4mainE1x(,%rax,4), %xmm1
+	movl	-68(%rbp), %eax
+	cltq
+	movss	_ZZ4mainE1y(,%rax,4), %xmm0
+	mulss	%xmm1, %xmm0
+	movl	-68(%rbp), %eax
 	cltq
 	movss	%xmm0, _ZZ4mainE1y(,%rax,4)
-	addl	$1, -72(%rbp)
-	jmp	.L4
-.L3:
+.L6:
 	addl	$1, -68(%rbp)
-	jmp	.L5
+	jmp	.L7
+.L3:
+	addl	$1, -64(%rbp)
+	jmp	.L8
 .L2:
 	leaq	-32(%rbp), %rax
 	movl	$0, %esi
@@ -59,22 +77,22 @@ main:
 	movq	%rdx, %rax
 	pxor	%xmm0, %xmm0
 	cvtsi2sdq	%rax, %xmm0
-	movsd	.LC0(%rip), %xmm2
+	movsd	.LC1(%rip), %xmm2
 	divsd	%xmm2, %xmm0
 	addsd	%xmm1, %xmm0
 	movsd	%xmm0, -56(%rbp)
 	movss	_ZZ4mainE1y(%rip), %xmm0
 	cvtss2sd	%xmm0, %xmm0
 	movsd	-56(%rbp), %xmm1
-	movl	$.LC1, %edi
+	movl	$.LC2, %edi
 	movl	$2, %eax
 	call	printf
 	movl	$0, %eax
 	movq	-8(%rbp), %rcx
 	xorq	%fs:40, %rcx
-	je	.L7
+	je	.L10
 	call	__stack_chk_fail
-.L7:
+.L10:
 	leave
 	.cfi_def_cfa 7, 8
 	ret
@@ -87,7 +105,7 @@ main:
 	.comm	_ZZ4mainE1y,400000000,32
 	.section	.rodata
 	.align 8
-.LC0:
+.LC1:
 	.long	0
 	.long	1093567616
 	.ident	"GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.4) 5.4.0 20160609"

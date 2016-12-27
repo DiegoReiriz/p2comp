@@ -2,11 +2,7 @@
 	.section	.rodata.str1.1,"aMS",@progbits,1
 .LC2:
 	.string	"\nresultado: %f %f"
-	.section	.text.unlikely,"ax",@progbits
-.LCOLDB3:
-	.section	.text.startup,"ax",@progbits
-.LHOTB3:
-	.p2align 4,,15
+	.text
 	.globl	main
 	.type	main, @function
 main:
@@ -14,70 +10,73 @@ main:
 	.cfi_startproc
 	subq	$56, %rsp
 	.cfi_def_cfa_offset 64
-	xorl	%esi, %esi
-	movq	%rsp, %rdi
 	movq	%fs:40, %rax
 	movq	%rax, 40(%rsp)
 	xorl	%eax, %eax
+	movl	$0, %esi
+	movq	%rsp, %rdi
 	call	gettimeofday
+	movl	$0, %edx
+	pxor	%xmm2, %xmm2
+	movaps	%xmm2, %xmm3
+	movaps	%xmm2, %xmm4
+.L6:
 	pxor	%xmm0, %xmm0
-	movl	$100, %ecx
-	movl	$_ZZ4mainE1y+400000000, %edx
-	mulss	%xmm0, %xmm0
-	addss	.LC0(%rip), %xmm0
-	shufps	$0, %xmm0, %xmm0
-	.p2align 4,,10
-	.p2align 3
-.L3:
-	movl	$_ZZ4mainE1y, %eax
-	.p2align 4,,10
-	.p2align 3
-.L2:
-	movaps	%xmm0, (%rax)
-	addq	$16, %rax
-	cmpq	%rdx, %rax
+	cvtsi2ss	%edx, %xmm0
+	mulss	.LC0(%rip), %xmm0
+	movl	$0, %eax
+.L5:
+	ucomiss	%xmm2, %xmm0
+	jp	.L2
+	ucomiss	%xmm3, %xmm0
 	jne	.L2
-	subl	$1, %ecx
-	jne	.L3
+	movss	%xmm4, _ZZ4mainE1x(%rax)
+	jmp	.L4
+.L2:
+	movss	_ZZ4mainE1x(%rax), %xmm1
+	mulss	_ZZ4mainE1y(%rax), %xmm1
+	movss	%xmm1, _ZZ4mainE1y(%rax)
+.L4:
+	addq	$4, %rax
+	cmpq	$400000000, %rax
+	jne	.L5
+	addl	$1, %edx
+	cmpl	$100, %edx
+	jne	.L6
+	movl	$0, %esi
 	leaq	16(%rsp), %rdi
-	xorl	%esi, %esi
 	call	gettimeofday
 	movq	24(%rsp), %rax
 	subq	8(%rsp), %rax
-	movl	$.LC2, %esi
 	pxor	%xmm1, %xmm1
-	movl	$1, %edi
-	pxor	%xmm2, %xmm2
-	pxor	%xmm0, %xmm0
 	cvtsi2sdq	%rax, %xmm1
+	divsd	.LC1(%rip), %xmm1
 	movq	16(%rsp), %rax
 	subq	(%rsp), %rax
-	cvtss2sd	_ZZ4mainE1y(%rip), %xmm0
+	pxor	%xmm2, %xmm2
 	cvtsi2sdq	%rax, %xmm2
-	movl	$2, %eax
-	divsd	.LC1(%rip), %xmm1
+	cvtss2sd	_ZZ4mainE1y(%rip), %xmm0
 	addsd	%xmm2, %xmm1
+	movl	$.LC2, %esi
+	movl	$1, %edi
+	movl	$2, %eax
 	call	__printf_chk
-	xorl	%eax, %eax
-	movq	40(%rsp), %rsi
-	xorq	%fs:40, %rsi
-	jne	.L9
+	movl	$0, %eax
+	movq	40(%rsp), %rcx
+	xorq	%fs:40, %rcx
+	je	.L7
+	call	__stack_chk_fail
+.L7:
 	addq	$56, %rsp
-	.cfi_remember_state
 	.cfi_def_cfa_offset 8
 	ret
-.L9:
-	.cfi_restore_state
-	call	__stack_chk_fail
 	.cfi_endproc
 .LFE50:
 	.size	main, .-main
-	.section	.text.unlikely
-.LCOLDE3:
-	.section	.text.startup
-.LHOTE3:
 	.local	_ZZ4mainE1y
 	.comm	_ZZ4mainE1y,400000000,32
+	.local	_ZZ4mainE1x
+	.comm	_ZZ4mainE1x,400000000,32
 	.section	.rodata.cst4,"aM",@progbits,4
 	.align 4
 .LC0:

@@ -4,7 +4,7 @@
 res1=$(cat resultados$1 | grep "sin optimizar -O0" -A 2 | grep "resultado" | cut -f 3 -d " ")
 res2=$(cat resultados$1 | grep "sin optimizar -O1" -A 2 | grep "resultado" | cut -f 3 -d " ")
 res3=$(cat resultados$1 | grep "sin optimziar -O2" -A 2 | grep "resultado" | cut -f 3 -d " ")
-res4=$(cat resultados$1 | grep "sin optimizar -O3" -A 2 | grep "resultado" | cut -f 3 -d " " | tr -d "-" | grep [[:digit:]])
+res4=$(cat resultados$1 | grep "sin optimizar -O3" -A 2 | grep "resultado" | cut -f 3 -d " ")
 res5=$(cat resultados$1 | grep "optimizado -O0" -A 2 | grep "resultado" | cut -f 3 -d " ")
 res6=$(cat resultados$1 | grep "optimizado -O1" -A 2 | grep "resultado" | cut -f 3 -d " ")
 res7=$(cat resultados$1 | grep "optimizado -O2" -A 2 | grep "resultado" | cut -f 3 -d " ")

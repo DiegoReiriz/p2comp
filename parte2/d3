@@ -1,4 +1,4 @@
-	.file	"main1.cpp"
+	.file	"main3.cpp"
 	.section	.rodata.str1.1,"aMS",@progbits,1
 .LC2:
 	.string	"\nresultado: %f %f"
@@ -12,32 +12,36 @@
 main:
 .LFB50:
 	.cfi_startproc
-	subq	$56, %rsp
-	.cfi_def_cfa_offset 64
+	pushq	%rbx
+	.cfi_def_cfa_offset 16
+	.cfi_offset 3, -16
 	xorl	%esi, %esi
+	xorl	%ebx, %ebx
+	subq	$48, %rsp
+	.cfi_def_cfa_offset 64
 	movq	%rsp, %rdi
 	movq	%fs:40, %rax
 	movq	%rax, 40(%rsp)
 	xorl	%eax, %eax
 	call	gettimeofday
+	.p2align 4,,10
+	.p2align 3
+.L6:
 	pxor	%xmm0, %xmm0
-	movl	$100, %edx
-	mulss	%xmm0, %xmm0
-	addss	.LC0(%rip), %xmm0
-	shufps	$0, %xmm0, %xmm0
-	.p2align 4,,10
-	.p2align 3
-.L3:
-	movl	$_ZZ4mainE1y, %eax
-	.p2align 4,,10
-	.p2align 3
-.L2:
-	movaps	%xmm0, (%rax)
-	addq	$16, %rax
-	cmpq	$_ZZ4mainE1y+4000000, %rax
-	jne	.L2
-	subl	$1, %edx
-	jne	.L3
+	pxor	%xmm3, %xmm3
+	cvtsi2ss	%ebx, %xmm0
+	mulss	.LC0(%rip), %xmm0
+	ucomiss	%xmm3, %xmm0
+	jp	.L8
+	jne	.L8
+	movl	$400000000, %edx
+	xorl	%esi, %esi
+	movl	$_ZZ4mainE1x, %edi
+	call	memset
+.L4:
+	addl	$1, %ebx
+	cmpl	$100, %ebx
+	jne	.L6
 	leaq	16(%rsp), %rdi
 	xorl	%esi, %esi
 	call	gettimeofday
@@ -60,13 +64,29 @@ main:
 	xorl	%eax, %eax
 	movq	40(%rsp), %rcx
 	xorq	%fs:40, %rcx
-	jne	.L9
-	addq	$56, %rsp
+	jne	.L15
+	addq	$48, %rsp
 	.cfi_remember_state
+	.cfi_def_cfa_offset 16
+	popq	%rbx
 	.cfi_def_cfa_offset 8
 	ret
-.L9:
+	.p2align 4,,10
+	.p2align 3
+.L8:
 	.cfi_restore_state
+	xorl	%eax, %eax
+	.p2align 4,,10
+	.p2align 3
+.L5:
+	movaps	_ZZ4mainE1x(%rax), %xmm0
+	addq	$16, %rax
+	mulps	_ZZ4mainE1y-16(%rax), %xmm0
+	movaps	%xmm0, _ZZ4mainE1y-16(%rax)
+	cmpq	$400000000, %rax
+	jne	.L5
+	jmp	.L4
+.L15:
 	call	__stack_chk_fail
 	.cfi_endproc
 .LFE50:
@@ -76,7 +96,9 @@ main:
 	.section	.text.startup
 .LHOTE3:
 	.local	_ZZ4mainE1y
-	.comm	_ZZ4mainE1y,4000000,32
+	.comm	_ZZ4mainE1y,400000000,32
+	.local	_ZZ4mainE1x
+	.comm	_ZZ4mainE1x,400000000,32
 	.section	.rodata.cst4,"aM",@progbits,4
 	.align 4
 .LC0:

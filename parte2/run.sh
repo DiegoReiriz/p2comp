@@ -15,7 +15,7 @@ gcc -O1 main$1.cpp
 
 echo ""
 echo "sin optimziar -O2"
-gcc -O2 main$!.cpp
+gcc -O2 main$1.cpp
 ./a.out
 
 echo ""

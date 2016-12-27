@@ -1,0 +1,104 @@
+	.file	"mainOptimizado.cpp"
+	.section	.rodata.str1.1,"aMS",@progbits,1
+.LC2:
+	.string	"\n%lf"
+	.text
+	.globl	main
+	.type	main, @function
+main:
+.LFB50:
+	.cfi_startproc
+	subq	$72, %rsp
+	.cfi_def_cfa_offset 80
+	movq	%fs:40, %rax
+	movq	%rax, 56(%rsp)
+	xorl	%eax, %eax
+	movl	$0, %esi
+	leaq	16(%rsp), %rdi
+	call	gettimeofday
+	movl	$0, %ecx
+	pxor	%xmm2, %xmm2
+	movaps	%xmm2, %xmm3
+	movl	$_ZZ4mainE1x+400000000, %edx
+	movaps	%xmm2, %xmm1
+.L6:
+	pxor	%xmm0, %xmm0
+	cvtsi2ss	%ecx, %xmm0
+	mulss	.LC0(%rip), %xmm0
+	ucomiss	%xmm2, %xmm0
+	jp	.L8
+	ucomiss	%xmm3, %xmm0
+	jne	.L8
+	movl	$_ZZ4mainE1x, %eax
+.L5:
+	movss	%xmm1, (%rax)
+	addq	$4, %rax
+	cmpq	%rdx, %rax
+	jne	.L5
+	jmp	.L4
+.L8:
+	movl	$0, %eax
+.L2:
+	movss	_ZZ4mainE1x(%rax), %xmm0
+	mulss	_ZZ4mainE1y(%rax), %xmm0
+	movss	%xmm0, _ZZ4mainE1y(%rax)
+	addq	$4, %rax
+	cmpq	$400000000, %rax
+	jne	.L2
+.L4:
+	addl	$1, %ecx
+	cmpl	$100, %ecx
+	jne	.L6
+	movl	$0, %esi
+	leaq	32(%rsp), %rdi
+	call	gettimeofday
+	movq	40(%rsp), %rax
+	subq	24(%rsp), %rax
+	pxor	%xmm0, %xmm0
+	cvtsi2sdq	%rax, %xmm0
+	divsd	.LC1(%rip), %xmm0
+	movq	32(%rsp), %rax
+	subq	16(%rsp), %rax
+	pxor	%xmm1, %xmm1
+	cvtsi2sdq	%rax, %xmm1
+	addsd	%xmm1, %xmm0
+	movsd	%xmm0, 8(%rsp)
+	cvtss2sd	_ZZ4mainE1y(%rip), %xmm0
+	movl	$.LC2, %esi
+	movl	$1, %edi
+	movl	$1, %eax
+	call	__printf_chk
+	movsd	8(%rsp), %xmm0
+	movl	$.LC2, %esi
+	movl	$1, %edi
+	movl	$1, %eax
+	call	__printf_chk
+	movl	$10, %edi
+	call	putchar
+	movl	$0, %eax
+	movq	56(%rsp), %rsi
+	xorq	%fs:40, %rsi
+	je	.L7
+	call	__stack_chk_fail
+.L7:
+	addq	$72, %rsp
+	.cfi_def_cfa_offset 8
+	ret
+	.cfi_endproc
+.LFE50:
+	.size	main, .-main
+	.local	_ZZ4mainE1y
+	.comm	_ZZ4mainE1y,400000000,32
+	.local	_ZZ4mainE1x
+	.comm	_ZZ4mainE1x,400000000,32
+	.section	.rodata.cst4,"aM",@progbits,4
+	.align 4
+.LC0:
+	.long	0
+	.section	.rodata.cst8,"aM",@progbits,8
+	.align 8
+.LC1:
+	.long	0
+	.long	1093567616
+	.ident	"GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.4) 5.4.0 20160609"
+	.section	.note.GNU-stack,"",@progbits

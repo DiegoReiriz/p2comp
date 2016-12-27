@@ -8,26 +8,26 @@ sin optimizar -O0
 
 sin optimizar -O1
 
-resultado: 0.000000 47.635082
+resultado: 0.000000 44.632233
 sin optimziar -O2
 
-resultado: 0.000000 4.866780
+resultado: 0.000000 44.843031
 sin optimizar -O3
 
-resultado: 0.000000 43.681424
+resultado: 0.000000 42.845962
 version optimizada
 
 optimizado -O0
 
 optimizado -O1
 
-resultado: 0.000000 46.261393
+resultado: 0.000000 45.243126
 optimizado -O2
 
-resultado: 0.000000 49.295053
+resultado: 0.000000 44.630784
 optimizado -O3
 
-resultado: 0.000000 47.314331
+resultado: 0.000000 42.667792
 iteracion 1
 
 version normal
@@ -36,26 +36,26 @@ sin optimizar -O0
 
 sin optimizar -O1
 
-resultado: 0.000000 46.982050
+resultado: 0.000000 44.884458
 sin optimziar -O2
 
-resultado: 0.000000 4.682360
+resultado: 0.000000 44.838859
 sin optimizar -O3
 
-resultado: 0.000000 44.686469
+resultado: 0.000000 42.592002
 version optimizada
 
 optimizado -O0
 
 optimizado -O1
 
-resultado: 0.000000 50.089721
+resultado: 0.000000 45.014155
 optimizado -O2
 
-resultado: 0.000000 50.821764
+resultado: 0.000000 46.899734
 optimizado -O3
 
-resultado: 0.000000 44.341529
+resultado: 0.000000 44.266888
 iteracion 2
 
 version normal
@@ -64,26 +64,26 @@ sin optimizar -O0
 
 sin optimizar -O1
 
-resultado: 0.000000 50.323302
+resultado: 0.000000 48.065945
 sin optimziar -O2
 
-resultado: 0.000000 4.896039
+resultado: 0.000000 47.233313
 sin optimizar -O3
 
-resultado: 0.000000 46.273643
+resultado: 0.000000 44.445708
 version optimizada
 
 optimizado -O0
 
 optimizado -O1
 
-resultado: 0.000000 48.128678
+resultado: 0.000000 45.083269
 optimizado -O2
 
-resultado: 0.000000 46.017415
+resultado: 0.000000 45.797568
 optimizado -O3
 
-resultado: 0.000000 41.179207
+resultado: 0.000000 45.329648
 iteracion 3
 
 version normal
@@ -92,193 +92,5 @@ sin optimizar -O0
 
 sin optimizar -O1
 
-resultado: 0.000000 43.727620
+resultado: 0.000000 46.946203
 sin optimziar -O2
-
-resultado: 0.000000 4.347822
-sin optimizar -O3
-
-resultado: 0.000000 43.927386
-version optimizada
-
-optimizado -O0
-
-optimizado -O1
-
-resultado: 0.000000 47.039711
-optimizado -O2
-
-resultado: 0.000000 49.747851
-optimizado -O3
-
-resultado: 0.000000 45.017002
-iteracion 4
-
-version normal
-
-sin optimizar -O0
-
-sin optimizar -O1
-
-resultado: 0.000000 49.322624
-sin optimziar -O2
-
-resultado: 0.000000 5.019904
-sin optimizar -O3
-
-resultado: 0.000000 46.243553
-version optimizada
-
-optimizado -O0
-
-optimizado -O1
-
-resultado: 0.000000 51.780445
-optimizado -O2
-
-resultado: 0.000000 51.059433
-optimizado -O3
-
-resultado: 0.000000 45.537962
-iteracion 5
-
-version normal
-
-sin optimizar -O0
-
-sin optimizar -O1
-
-resultado: 0.000000 46.846644
-sin optimziar -O2
-
-resultado: 0.000000 4.559542
-sin optimizar -O3
-
-resultado: 0.000000 43.152997
-version optimizada
-
-optimizado -O0
-
-optimizado -O1
-
-resultado: 0.000000 47.082499
-optimizado -O2
-
-resultado: 0.000000 46.568894
-optimizado -O3
-
-resultado: 0.000000 43.858961
-iteracion 6
-
-version normal
-
-sin optimizar -O0
-
-sin optimizar -O1
-
-resultado: 0.000000 46.277339
-sin optimziar -O2
-
-resultado: 0.000000 4.205370
-sin optimizar -O3
-
-resultado: 0.000000 41.026590
-version optimizada
-
-optimizado -O0
-
-optimizado -O1
-
-resultado: 0.000000 43.112230
-optimizado -O2
-
-resultado: 0.000000 45.200220
-optimizado -O3
-
-resultado: 0.000000 43.464910
-iteracion 7
-
-version normal
-
-sin optimizar -O0
-
-sin optimizar -O1
-
-resultado: 0.000000 44.351736
-sin optimziar -O2
-
-resultado: 0.000000 4.286949
-sin optimizar -O3
-
-resultado: 0.000000 42.934134
-version optimizada
-
-optimizado -O0
-
-optimizado -O1
-
-resultado: 0.000000 47.062480
-optimizado -O2
-
-resultado: 0.000000 47.362798
-optimizado -O3
-
-resultado: 0.000000 45.405728
-iteracion 8
-
-version normal
-
-sin optimizar -O0
-
-sin optimizar -O1
-
-resultado: 0.000000 48.357469
-sin optimziar -O2
-
-resultado: 0.000000 4.721826
-sin optimizar -O3
-
-resultado: 0.000000 45.088981
-version optimizada
-
-optimizado -O0
-
-optimizado -O1
-
-resultado: 0.000000 46.621273
-optimizado -O2
-
-resultado: 0.000000 46.267808
-optimizado -O3
-
-resultado: 0.000000 45.410321
-iteracion 9
-
-version normal
-
-sin optimizar -O0
-
-sin optimizar -O1
-
-resultado: 0.000000 47.830157
-sin optimziar -O2
-
-resultado: 0.000000 5.084186
-sin optimizar -O3
-
-resultado: 0.000000 44.529459
-version optimizada
-
-optimizado -O0
-
-optimizado -O1
-
-resultado: 0.000000 49.695494
-optimizado -O2
-
-resultado: 0.000000 46.974084
-optimizado -O3
-
-resultado: 0.000000 44.071897
-TERMINADO
-

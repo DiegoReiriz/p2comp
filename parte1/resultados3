@@ -4,321 +4,321 @@ iteracion 0
 
 version normal
 
-resultado: 0.000000 23.932257
+resultado: 0.000000 25.045457
 sin optimizar -O0
 
-resultado: 0.000000 23.977393
+resultado: 0.000000 25.569151
 sin optimizar -O1
 
-resultado: 0.000000 4.630524
+resultado: 0.000000 4.390629
 sin optimziar -O2
 
-resultado: 0.000000 4.491273
+resultado: 0.000000 4.618467
 sin optimizar -O3
 
-resultado: 0.000000 4.471526
+resultado: 0.000000 4.395033
 version optimizada
 
-resultado: 0.000000 14.706707
+resultado: 0.000000 14.755245
 optimizado -O0
 
-resultado: 0.000000 14.727125
+resultado: 0.000000 14.362393
 optimizado -O1
 
-resultado: 0.000000 4.539371
+resultado: 0.000000 4.431726
 optimizado -O2
 
-resultado: 0.000000 4.551548
+resultado: 0.000000 4.409276
 optimizado -O3
 
-resultado: 0.000000 4.419910
+resultado: 0.000000 4.241321
 iteracion 1
 
 version normal
 
-resultado: 0.000000 25.222521
+resultado: 0.000000 25.027692
 sin optimizar -O0
 
-resultado: 0.000000 25.177195
+resultado: 0.000000 25.408906
 sin optimizar -O1
 
-resultado: 0.000000 4.603864
+resultado: 0.000000 4.388370
 sin optimziar -O2
 
-resultado: 0.000000 4.541339
+resultado: 0.000000 4.380599
 sin optimizar -O3
 
-resultado: 0.000000 4.316120
+resultado: 0.000000 4.227402
 version optimizada
 
-resultado: 0.000000 14.584808
+resultado: 0.000000 14.237321
 optimizado -O0
 
-resultado: 0.000000 14.509370
+resultado: 0.000000 14.247932
 optimizado -O1
 
-resultado: 0.000000 4.572997
+resultado: 0.000000 4.499437
 optimizado -O2
 
-resultado: 0.000000 4.660785
+resultado: 0.000000 4.445732
 optimizado -O3
 
-resultado: 0.000000 4.356967
+resultado: 0.000000 4.224172
 iteracion 2
 
 version normal
 
-resultado: 0.000000 25.155658
+resultado: 0.000000 25.483406
 sin optimizar -O0
 
-resultado: 0.000000 25.036616
+resultado: 0.000000 27.020655
 sin optimizar -O1
 
-resultado: 0.000000 4.498705
+resultado: 0.000000 5.468505
 sin optimziar -O2
 
-resultado: 0.000000 4.786503
+resultado: 0.000000 5.384952
 sin optimizar -O3
 
-resultado: 0.000000 4.750552
+resultado: 0.000000 4.785365
 version optimizada
 
-resultado: 0.000000 15.354652
+resultado: 0.000000 15.435768
 optimizado -O0
 
-resultado: 0.000000 15.375920
+resultado: 0.000000 15.715762
 optimizado -O1
 
-resultado: 0.000000 4.477814
+resultado: 0.000000 4.587963
 optimizado -O2
 
-resultado: 0.000000 4.482478
+resultado: 0.000000 4.819304
 optimizado -O3
 
-resultado: 0.000000 4.290698
+resultado: 0.000000 4.574156
 iteracion 3
 
 version normal
 
-resultado: 0.000000 25.355149
+resultado: 0.000000 25.520342
 sin optimizar -O0
 
-resultado: 0.000000 24.699785
+resultado: 0.000000 26.146758
 sin optimizar -O1
 
-resultado: 0.000000 4.568091
+resultado: 0.000000 4.612815
 sin optimziar -O2
 
-resultado: 0.000000 4.408085
+resultado: 0.000000 4.467328
 sin optimizar -O3
 
-resultado: 0.000000 4.254486
+resultado: 0.000000 4.403612
 version optimizada
 
-resultado: 0.000000 14.424092
+resultado: 0.000000 14.237568
 optimizado -O0
 
-resultado: 0.000000 14.611417
+resultado: 0.000000 14.671939
 optimizado -O1
 
-resultado: 0.000000 4.481874
+resultado: 0.000000 4.486953
 optimizado -O2
 
-resultado: 0.000000 4.501312
+resultado: 0.000000 4.505209
 optimizado -O3
 
-resultado: 0.000000 4.251416
+resultado: 0.000000 4.359232
 iteracion 4
 
 version normal
 
-resultado: 0.000000 24.907594
+resultado: 0.000000 25.061032
 sin optimizar -O0
 
-resultado: 0.000000 24.669675
+resultado: 0.000000 25.052821
 sin optimizar -O1
 
-resultado: 0.000000 4.461039
+resultado: 0.000000 4.465143
 sin optimziar -O2
 
-resultado: 0.000000 4.521294
+resultado: 0.000000 4.492630
 sin optimizar -O3
 
-resultado: 0.000000 4.276002
+resultado: 0.000000 4.335983
 version optimizada
 
-resultado: 0.000000 14.239176
+resultado: 0.000000 14.444639
 optimizado -O0
 
-resultado: 0.000000 14.366913
+resultado: 0.000000 14.477222
 optimizado -O1
 
-resultado: 0.000000 4.473329
+resultado: 0.000000 4.521349
 optimizado -O2
 
-resultado: 0.000000 4.444474
+resultado: 0.000000 4.472857
 optimizado -O3
 
-resultado: 0.000000 4.350200
+resultado: 0.000000 4.278223
 iteracion 5
 
 version normal
 
-resultado: 0.000000 25.038943
+resultado: 0.000000 25.764239
 sin optimizar -O0
 
-resultado: 0.000000 25.057308
+resultado: 0.000000 24.804347
 sin optimizar -O1
 
-resultado: 0.000000 4.477449
+resultado: 0.000000 4.454504
 sin optimziar -O2
 
-resultado: 0.000000 4.665295
+resultado: 0.000000 4.492395
 sin optimizar -O3
 
-resultado: 0.000000 4.380974
+resultado: 0.000000 4.268158
 version optimizada
 
-resultado: 0.000000 15.298617
+resultado: 0.000000 14.692284
 optimizado -O0
 
-resultado: 0.000000 16.353272
+resultado: 0.000000 14.179623
 optimizado -O1
 
-resultado: 0.000000 5.043358
+resultado: 0.000000 4.476995
 optimizado -O2
 
-resultado: 0.000000 5.034460
+resultado: 0.000000 4.639079
 optimizado -O3
 
-resultado: 0.000000 4.713081
+resultado: 0.000000 4.338152
 iteracion 6
 
 version normal
 
-resultado: 0.000000 26.264441
+resultado: 0.000000 24.953454
 sin optimizar -O0
 
-resultado: 0.000000 26.551125
+resultado: 0.000000 25.826333
 sin optimizar -O1
 
-resultado: 0.000000 6.640165
+resultado: 0.000000 4.537504
 sin optimziar -O2
 
-resultado: 0.000000 5.449646
+resultado: 0.000000 4.541289
 sin optimizar -O3
 
-resultado: 0.000000 5.289859
+resultado: 0.000000 4.233552
 version optimizada
 
-resultado: 0.000000 15.359985
+resultado: 0.000000 14.592860
 optimizado -O0
 
-resultado: 0.000000 15.422464
+resultado: 0.000000 14.652657
 optimizado -O1
 
-resultado: 0.000000 4.895356
+resultado: 0.000000 4.700888
 optimizado -O2
 
-resultado: 0.000000 4.778033
+resultado: 0.000000 4.385526
 optimizado -O3
 
-resultado: 0.000000 4.738615
+resultado: 0.000000 4.264241
 iteracion 7
 
 version normal
 
-resultado: 0.000000 26.571038
+resultado: 0.000000 26.710832
 sin optimizar -O0
 
-resultado: 0.000000 26.764496
+resultado: 0.000000 25.080086
 sin optimizar -O1
 
-resultado: 0.000000 4.833636
+resultado: 0.000000 4.455666
 sin optimziar -O2
 
-resultado: 0.000000 4.888036
+resultado: 0.000000 4.492699
 sin optimizar -O3
 
-resultado: 0.000000 4.298994
+resultado: 0.000000 4.380988
 version optimizada
 
-resultado: 0.000000 14.951331
+resultado: 0.000000 14.153718
 optimizado -O0
 
-resultado: 0.000000 15.841932
+resultado: 0.000000 14.222750
 optimizado -O1
 
-resultado: 0.000000 5.057086
+resultado: 0.000000 4.625241
 optimizado -O2
 
-resultado: 0.000000 4.763801
+resultado: 0.000000 4.616710
 optimizado -O3
 
-resultado: 0.000000 4.770780
+resultado: 0.000000 4.313839
 iteracion 8
 
 version normal
 
-resultado: 0.000000 27.190640
+resultado: 0.000000 26.075261
 sin optimizar -O0
 
-resultado: 0.000000 27.229182
+resultado: 0.000000 25.696361
 sin optimizar -O1
 
-resultado: 0.000000 5.207889
+resultado: 0.000000 4.477932
 sin optimziar -O2
 
-resultado: 0.000000 5.152726
+resultado: 0.000000 4.538694
 sin optimizar -O3
 
-resultado: 0.000000 4.803714
+resultado: 0.000000 4.279099
 version optimizada
 
-resultado: 0.000000 15.918133
+resultado: 0.000000 14.167688
 optimizado -O0
 
-resultado: 0.000000 15.375075
+resultado: 0.000000 14.275064
 optimizado -O1
 
-resultado: 0.000000 4.671143
+resultado: 0.000000 4.525999
 optimizado -O2
 
-resultado: 0.000000 4.745544
+resultado: 0.000000 4.648698
 optimizado -O3
 
-resultado: 0.000000 4.600080
+resultado: 0.000000 4.371653
 iteracion 9
 
 version normal
 
-resultado: 0.000000 26.399801
+resultado: 0.000000 24.933444
 sin optimizar -O0
 
-resultado: 0.000000 28.087176
+resultado: 0.000000 25.278147
 sin optimizar -O1
 
-resultado: 0.000000 5.626987
+resultado: 0.000000 4.599926
 sin optimziar -O2
 
-resultado: 0.000000 5.508772
+resultado: 0.000000 4.473437
 sin optimizar -O3
 
-resultado: 0.000000 5.136881
+resultado: 0.000000 4.308728
 version optimizada
 
-resultado: 0.000000 15.130433
+resultado: 0.000000 14.336800
 optimizado -O0
 
-resultado: 0.000000 15.138118
+resultado: 0.000000 14.340326
 optimizado -O1
 
-resultado: 0.000000 4.735999
+resultado: 0.000000 4.532147
 optimizado -O2
 
-resultado: 0.000000 4.607535
+resultado: 0.000000 4.520412
 optimizado -O3
 
-resultado: 0.000000 4.317796
+resultado: 0.000000 4.332235
 TERMINADO
 
