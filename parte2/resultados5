@@ -1,0 +1,234 @@
+
+
+iteracion 0
+
+version normal
+
+sin optimizar -O0
+
+sin optimizar -O1
+
+sin optimziar -O2
+
+resultado: 0.000000 9.261394
+sin optimizar -O3
+
+version optimizada
+
+optimizado -O0
+
+optimizado -O1
+
+optimizado -O2
+
+optimizado -O3
+
+iteracion 1
+
+version normal
+
+sin optimizar -O0
+
+sin optimizar -O1
+
+sin optimziar -O2
+
+resultado: 0.000000 9.219975
+sin optimizar -O3
+
+version optimizada
+
+optimizado -O0
+
+optimizado -O1
+
+optimizado -O2
+
+optimizado -O3
+
+iteracion 2
+
+version normal
+
+sin optimizar -O0
+
+sin optimizar -O1
+
+sin optimziar -O2
+
+resultado: 0.000000 9.651204
+sin optimizar -O3
+
+version optimizada
+
+optimizado -O0
+
+optimizado -O1
+
+optimizado -O2
+
+optimizado -O3
+
+iteracion 3
+
+version normal
+
+sin optimizar -O0
+
+sin optimizar -O1
+
+sin optimziar -O2
+
+resultado: 0.000000 9.383555
+sin optimizar -O3
+
+version optimizada
+
+optimizado -O0
+
+optimizado -O1
+
+optimizado -O2
+
+optimizado -O3
+
+iteracion 4
+
+version normal
+
+sin optimizar -O0
+
+sin optimizar -O1
+
+sin optimziar -O2
+
+resultado: 0.000000 9.489964
+sin optimizar -O3
+
+version optimizada
+
+optimizado -O0
+
+optimizado -O1
+
+optimizado -O2
+
+optimizado -O3
+
+iteracion 5
+
+version normal
+
+sin optimizar -O0
+
+sin optimizar -O1
+
+sin optimziar -O2
+
+resultado: 0.000000 9.751814
+sin optimizar -O3
+
+version optimizada
+
+optimizado -O0
+
+optimizado -O1
+
+optimizado -O2
+
+optimizado -O3
+
+iteracion 6
+
+version normal
+
+sin optimizar -O0
+
+sin optimizar -O1
+
+sin optimziar -O2
+
+resultado: 0.000000 9.215397
+sin optimizar -O3
+
+version optimizada
+
+optimizado -O0
+
+optimizado -O1
+
+optimizado -O2
+
+optimizado -O3
+
+iteracion 7
+
+version normal
+
+sin optimizar -O0
+
+sin optimizar -O1
+
+sin optimziar -O2
+
+resultado: 0.000000 9.404438
+sin optimizar -O3
+
+version optimizada
+
+optimizado -O0
+
+optimizado -O1
+
+optimizado -O2
+
+optimizado -O3
+
+iteracion 8
+
+version normal
+
+sin optimizar -O0
+
+sin optimizar -O1
+
+sin optimziar -O2
+
+resultado: 0.000000 9.440858
+sin optimizar -O3
+
+version optimizada
+
+optimizado -O0
+
+optimizado -O1
+
+optimizado -O2
+
+optimizado -O3
+
+iteracion 9
+
+version normal
+
+sin optimizar -O0
+
+sin optimizar -O1
+
+sin optimziar -O2
+
+resultado: 0.000000 9.632208
+sin optimizar -O3
+
+version optimizada
+
+optimizado -O0
+
+optimizado -O1
+
+optimizado -O2
+
+optimizado -O3
+
+TERMINADO
+

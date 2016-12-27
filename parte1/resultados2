@@ -1,0 +1,324 @@
+
+
+iteracion 0
+
+version normal
+
+resultado: 0.000000 2.475965
+sin optimizar -O0
+
+resultado: 0.000000 2.481416
+sin optimizar -O1
+
+resultado: 0.000000 0.428110
+sin optimziar -O2
+
+resultado: 0.000000 4.337072
+sin optimizar -O3
+
+resultado: 0.000000 0.418645
+version optimizada
+
+resultado: 0.000000 1.379845
+optimizado -O0
+
+resultado: 0.000000 1.415018
+optimizado -O1
+
+resultado: 0.000000 0.429220
+optimizado -O2
+
+resultado: 0.000000 0.428424
+optimizado -O3
+
+resultado: 0.000000 0.410620
+iteracion 1
+
+version normal
+
+resultado: 0.000000 2.410598
+sin optimizar -O0
+
+resultado: 0.000000 2.421723
+sin optimizar -O1
+
+resultado: 0.000000 0.427535
+sin optimziar -O2
+
+resultado: 0.000000 4.312531
+sin optimizar -O3
+
+resultado: 0.000000 0.409475
+version optimizada
+
+resultado: 0.000000 1.384952
+optimizado -O0
+
+resultado: 0.000000 1.387552
+optimizado -O1
+
+resultado: 0.000000 0.430827
+optimizado -O2
+
+resultado: 0.000000 0.429530
+optimizado -O3
+
+resultado: 0.000000 0.415546
+iteracion 2
+
+version normal
+
+resultado: 0.000000 2.429195
+sin optimizar -O0
+
+resultado: 0.000000 2.487866
+sin optimizar -O1
+
+resultado: 0.000000 0.424720
+sin optimziar -O2
+
+resultado: 0.000000 4.222791
+sin optimizar -O3
+
+resultado: 0.000000 0.407481
+version optimizada
+
+resultado: 0.000000 1.371438
+optimizado -O0
+
+resultado: 0.000000 1.368359
+optimizado -O1
+
+resultado: 0.000000 0.424708
+optimizado -O2
+
+resultado: 0.000000 0.423807
+optimizado -O3
+
+resultado: 0.000000 0.405023
+iteracion 3
+
+version normal
+
+resultado: 0.000000 2.413062
+sin optimizar -O0
+
+resultado: 0.000000 2.425288
+sin optimizar -O1
+
+resultado: 0.000000 0.420672
+sin optimziar -O2
+
+resultado: 0.000000 4.222607
+sin optimizar -O3
+
+resultado: 0.000000 0.404778
+version optimizada
+
+resultado: 0.000000 1.374580
+optimizado -O0
+
+resultado: 0.000000 1.374945
+optimizado -O1
+
+resultado: 0.000000 0.428170
+optimizado -O2
+
+resultado: 0.000000 0.424647
+optimizado -O3
+
+resultado: 0.000000 0.407520
+iteracion 4
+
+version normal
+
+resultado: 0.000000 2.417995
+sin optimizar -O0
+
+resultado: 0.000000 2.452044
+sin optimizar -O1
+
+resultado: 0.000000 0.440075
+sin optimziar -O2
+
+resultado: 0.000000 4.303543
+sin optimizar -O3
+
+resultado: 0.000000 0.413799
+version optimizada
+
+resultado: 0.000000 1.369569
+optimizado -O0
+
+resultado: 0.000000 1.373165
+optimizado -O1
+
+resultado: 0.000000 0.423416
+optimizado -O2
+
+resultado: 0.000000 0.423427
+optimizado -O3
+
+resultado: 0.000000 0.409107
+iteracion 5
+
+version normal
+
+resultado: 0.000000 2.433385
+sin optimizar -O0
+
+resultado: 0.000000 2.408097
+sin optimizar -O1
+
+resultado: 0.000000 0.421821
+sin optimziar -O2
+
+resultado: 0.000000 4.201735
+sin optimizar -O3
+
+resultado: 0.000000 0.405568
+version optimizada
+
+resultado: 0.000000 1.384233
+optimizado -O0
+
+resultado: 0.000000 1.404770
+optimizado -O1
+
+resultado: 0.000000 0.423854
+optimizado -O2
+
+resultado: 0.000000 0.421430
+optimizado -O3
+
+resultado: 0.000000 0.416652
+iteracion 6
+
+version normal
+
+resultado: 0.000000 2.416802
+sin optimizar -O0
+
+resultado: 0.000000 2.402628
+sin optimizar -O1
+
+resultado: 0.000000 0.422949
+sin optimziar -O2
+
+resultado: 0.000000 4.220621
+sin optimizar -O3
+
+resultado: 0.000000 0.406160
+version optimizada
+
+resultado: 0.000000 1.376006
+optimizado -O0
+
+resultado: 0.000000 1.365172
+optimizado -O1
+
+resultado: 0.000000 0.425407
+optimizado -O2
+
+resultado: 0.000000 0.420735
+optimizado -O3
+
+resultado: 0.000000 0.406911
+iteracion 7
+
+version normal
+
+resultado: 0.000000 2.437981
+sin optimizar -O0
+
+resultado: 0.000000 2.454835
+sin optimizar -O1
+
+resultado: 0.000000 0.423412
+sin optimziar -O2
+
+resultado: 0.000000 4.216181
+sin optimizar -O3
+
+resultado: 0.000000 0.407192
+version optimizada
+
+resultado: 0.000000 1.385185
+optimizado -O0
+
+resultado: 0.000000 1.371479
+optimizado -O1
+
+resultado: 0.000000 0.424987
+optimizado -O2
+
+resultado: 0.000000 0.423836
+optimizado -O3
+
+resultado: 0.000000 0.404460
+iteracion 8
+
+version normal
+
+resultado: 0.000000 2.395665
+sin optimizar -O0
+
+resultado: 0.000000 2.393079
+sin optimizar -O1
+
+resultado: 0.000000 0.421602
+sin optimziar -O2
+
+resultado: 0.000000 4.192180
+sin optimizar -O3
+
+resultado: 0.000000 0.405319
+version optimizada
+
+resultado: 0.000000 1.371689
+optimizado -O0
+
+resultado: 0.000000 1.369582
+optimizado -O1
+
+resultado: 0.000000 0.421385
+optimizado -O2
+
+resultado: 0.000000 0.427187
+optimizado -O3
+
+resultado: 0.000000 0.404163
+iteracion 9
+
+version normal
+
+resultado: 0.000000 2.464554
+sin optimizar -O0
+
+resultado: 0.000000 2.427785
+sin optimizar -O1
+
+resultado: 0.000000 0.424016
+sin optimziar -O2
+
+resultado: 0.000000 4.187892
+sin optimizar -O3
+
+resultado: 0.000000 0.417739
+version optimizada
+
+resultado: 0.000000 1.368592
+optimizado -O0
+
+resultado: 0.000000 1.396063
+optimizado -O1
+
+resultado: 0.000000 0.427108
+optimizado -O2
+
+resultado: 0.000000 0.424281
+optimizado -O3
+
+resultado: 0.000000 0.414373
+TERMINADO
+
