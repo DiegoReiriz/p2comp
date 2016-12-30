@@ -3,7 +3,7 @@
 i=0
 
 echo ""
-while [ $i -lt 10 ]
+while [ $i -lt 100 ]
 do
 	echo ""
 	echo "iteracion $i"
